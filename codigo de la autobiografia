@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Autobiografía </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-image: url('https://images3.alphacoders.com/212/212835.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .contenedor {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .imagen {
+            margin-bottom: 20px;
+        }
+        
+        p {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="contenedor mt-5">
+                    <h1 class="text-center mb-5">PITER PONCE</h1>
+                    <div class="text-center imagen">
+                        <img src="https://utmachalaeduec-my.sharepoint.com/:i:/r/personal/pponce2_utmachala_edu_ec/Documents/Biografia.jpeg?csf=1&web=1&e=mXD85N" width="350px" height="350px" alt="Lionel Messi" style="border: 5px solid; color: black;">
+                    </div>
+                    <p class="text-center">
+                        Hola mi nombre es Piter Patricio Ponce Fernandez ,nacido el 11 de diciembre del 2000 en pasaje el Oro nací y crecí en pasaje hasta los 9 años estudie en la escuela ciudad de pasaje hasta 5to grado para luego mudarme a vivir a Quito con mis tíos los cuales
+                        son dueños de unos locales de ropa,
+                        <br><br>termine la escuela en una parte de Quito llamado Carapungo que se encuentra al norte del país, después de finalizar la escuela volví a pasaje para terminar el colegio y graduarme en el colegio Corsino Cardenas,
+                        <br><br> también estuve en un equipo de futbol de la peaña hasta los 20 años ganamos 3 campeonatos y siempre me catalogue como un jugador muy rápido, mi posición en el equipo fue de medio campo derecho .
+                        <br><br> Al finalizar mis estudios empecé a trabajar un tiempo en un pequeño local de mi tío de el Guabo para despues de eso hacer las pruebas de la universidad para asi poder ingresar en ella ,la cual después de 1 año pude finalmente
+                        ingresar ,
+                        <br><br> después de un tiempo empecé a vivir solo ya que mi familia se mudo a otra ciudad y yo me quede por los estudios gracias a mi madre es que sigo estudiando y saliendo adelante. Actualmente estoy cursando el 5to semestre
+                        de la carrera y espero poder terminarla.
+                    </p>
+                    <div class="container mb-3">
+                        <h2 class="text-center mb-4">Contacto</h2>
+                        <form action="/contacto" method="POST">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
